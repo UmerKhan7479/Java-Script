@@ -1,19 +1,19 @@
 // Question 1
-var num1 = parseFloat(prompt("Enter a positive integer:"));
+var num1 = 23;
 console.log("Number:", num1);
 console.log("Round off value:", Math.round(num1));
 console.log("Floor value:", Math.floor(num1));
 console.log("Ceil value:", Math.ceil(num1));
 
 // Question 2
-var num2 = parseFloat(prompt("Enter a negative floating point number:"));
+var num2 = -12.67;
 console.log("Number:", num2);
 console.log("Round off value:", Math.round(num2));
 console.log("Floor value:", Math.floor(num2));
 console.log("Ceil value:", Math.ceil(num2));
 
 // Question 3
-var num3 = parseFloat(prompt("Enter any number:"));
+var num3 = -8.5;
 console.log("Absolute value:", Math.abs(num3));
 
 // Question 4
@@ -29,13 +29,13 @@ var randomNumber = Math.floor(Math.random() * 100) + 1;
 console.log("Random number between 1 and 100:", randomNumber);
 
 // Question 7
-var weight = prompt("Enter your weight (e.g., 50, 50kgs, 50.2kgs, 50.2kilograms):");
+var weight = "65.8kgs";
 var parsedWeight = parseFloat(weight);
 console.log("Your weight is:", parsedWeight, "kilograms");
 
 // Question 8
-var secretNumber = Math.floor(Math.random() * 10) + 1;
-var userGuess = parseInt(prompt("Guess the secret number (1 to 10):"));
+var secretNumber = 5;
+var userGuess = 7;
 if (userGuess === secretNumber) {
     console.log("Congratulations! You guessed the correct number.");
 } else {
