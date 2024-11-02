@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .clock-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .clock {
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
